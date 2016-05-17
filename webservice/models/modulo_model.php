@@ -1,13 +1,13 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
- * Informes Class Model
+ * Modulo Class Model
  *
  * @package      WebService UCSC
  * @subpackage   Nombre Modulo Webservice
  * @category     Model
  * @author       Nombre Autor
- * @link         https://ws.ucsc.cl/webservice/nombre_modulo/
+ * @link         https://ws.ucsc.cl/webservice/modulo/
  */
 class Modulo_model extends CI_Model{
 
