@@ -5,6 +5,7 @@ Funciones básicas para la creación de un webservice
 
 
 * [Webservice UCSC](#about)
+* [Consultar Webservice](#consultar)
 
 ## <a name='about'>Webservice UCSC</a>
 Los webservice de la [UCSC](http://ucsc.cl) son controlados por la Dirección de Servicios Informáticos de la universidad (DSI). Estos son solicitados por Directores o Decanos enviando el formulario *Formulario Solicitud Desarrollo Webservice* disponible en la intranet institucional al email *webservices@ucsc.cl*.
@@ -16,3 +17,17 @@ Para un lenguaje práctico de este mini tutorial, se utilirá la siguiente nomen
 * **webservice**: es el nombre del webservice dado por el desarrollador o por la DSI.
 * **modulo**: representa los módulos (controllers) que compone el webservice.
 * **metodo**: representa los métodos que compone un módulo.
+
+
+## <a name='consultar'>Consultar Webservice</a>
+Dirección de Servicios Informáticos, para los webservices tiene un ambiente de desarrollo y un ambiente de producción, se consulta distinto para cada ambiente y los niveles de seguridad tambien son distintos.
+
+###Desarrollo
+```
+http://ws.dev.ucsc.cl/<websevice>/<modulo>/<metodo>/
+```
+
+###Producción
+```
+https://ws.ucsc.cl/<websevice>/<modulo>/<metodo>/
+```
