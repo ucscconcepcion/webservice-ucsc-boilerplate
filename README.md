@@ -6,6 +6,7 @@ Funciones básicas para la creación de un webservice
 
 * [Webservice UCSC](#about)
 * [Consultar Webservice](#consultar)
+* [Formato Respuesta](#formato)
 
 ## <a name='about'>Webservice UCSC</a>
 Los webservice de la [UCSC](http://ucsc.cl) son controlados por la Dirección de Servicios Informáticos de la universidad (DSI). Estos son solicitados por Directores o Decanos enviando el formulario *Formulario Solicitud Desarrollo Webservice* disponible en la intranet institucional al email *webservices@ucsc.cl*.
@@ -20,14 +21,22 @@ Para un lenguaje práctico de este mini tutorial, se utilirá la siguiente nomen
 
 
 ## <a name='consultar'>Consultar Webservice</a>
-Dirección de Servicios Informáticos, para los webservices tiene un ambiente de desarrollo y un ambiente de producción, se consulta distinto para cada ambiente y los niveles de seguridad tambien son distintos.
+Dirección de Servicios Informáticos, para los webservices tiene un ambiente de desarrollo y un ambiente de producción, se consulta distinto para cada ambiente y los niveles de seguridad también son distintos.
 
-###Desarrollo
+####Desarrollo
 ```
-http://ws.dev.ucsc.cl/<websevice>/<modulo>/<metodo>/
+http://ws.dev.ucsc.cl/<webservice>/<modulo>/<metodo>/
 ```
 
-###Producción
+####Producción
 ```
-https://ws.ucsc.cl/<websevice>/<modulo>/<metodo>/
+https://ws.ucsc.cl/<webservice>/<modulo>/<metodo>/
+```
+
+
+## <a name='formato'>Formato Respuesta</a>
+Por defecto el webservice tiene comom formato de salida el *XML*, pero también puede utilizar *json*.
+####Ejemplo
+```
+https://ws.ucsc.cl/<webservice>/<modulo>/<metodo>/format/json
 ```
