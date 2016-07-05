@@ -14,5 +14,5 @@ El lenguaje de desarrollo de los webservices es en PHP, teniendo como base el fr
 Para un lenguaje práctico de este mini tutorial, se utilirá la siguiente nomenclatura:
 
 * **webservice**: es el nombre del webservice dado por el desarrollador o por la DSI.
-* **modulo**: representa los módulos que compone el webservice.
+* **modulo**: representa los módulos (controllers) que compone el webservice.
 * **metodo**: representa los métodos que compone un módulo.
