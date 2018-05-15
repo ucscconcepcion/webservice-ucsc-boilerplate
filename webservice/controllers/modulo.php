@@ -9,7 +9,7 @@ require APPPATH.'/libraries/REST_Controller.php';
  * @subpackage   Nombre Modulo Webservice
  * @category     Controller
  * @author       Nombre Autor
- * @link         https://ws.ucsc.cl/webservice/modulo/
+ * @link         https://ws.ucsc.cl/<webservice>/<modulo>/
  */
 class Modulo extends REST_Controller {
 

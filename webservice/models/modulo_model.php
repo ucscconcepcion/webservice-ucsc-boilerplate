@@ -7,7 +7,7 @@
  * @subpackage   Nombre Modulo Webservice
  * @category     Model
  * @author       Nombre Autor
- * @link         https://ws.ucsc.cl/webservice/modulo/
+ * @link         https://ws.ucsc.cl/<webservice>/<modulo>/
  */
 class Modulo_model extends CI_Model{
 
